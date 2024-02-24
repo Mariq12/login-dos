@@ -34,7 +34,7 @@ const Login = () => {
         </div>
         <div class="form-container sign-in">
             <form>
-            <h1>Iniciar sesión</h1>
+            <h1>Iniciar Sesión</h1>
             <div class="social-icons">
                 <a href="#" class="icon">
                 <FaGooglePlus />
