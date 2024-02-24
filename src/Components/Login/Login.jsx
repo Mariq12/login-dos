@@ -7,7 +7,7 @@ const Login = () => {
         <div class="container" id="container">
         <div class="form-container sign-up">
             <form>
-            <h1>Create Account</h1>
+            <h1>Crear cuenta</h1>
             <div class="social-icons">
                 <a href="#" class="icon">
                 <FaGooglePlus />
