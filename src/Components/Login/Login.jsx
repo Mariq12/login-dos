@@ -3,7 +3,6 @@ import "./Login.css";
 import {FaGooglePlus, FaFacebook, FaTwitter, FaLinkedin, FaGithub,} from "react-icons/fa";
 
 const Login = () => {
-
     return (
         <div class="container" id="container">
         <div class="form-container sign-up">
