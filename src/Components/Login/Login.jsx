@@ -53,11 +53,11 @@ const Login = () => {
               <FaGithub />
             </a>
           </div>
-          <span>or use your email for registration</span>
+          <span>Puede usar su correo electrónico</span>
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
-          <button>Sign Up</button>
+          <button>Registrarse</button>
         </form>
       </div>
       <div className="form-container sign-in">
@@ -80,27 +80,27 @@ const Login = () => {
               <FaGithub />
             </a>
           </div>
-          <span>or use your email password</span>
+          <span>Puede usar su correo electrónico</span>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
-          <a href="#">Forgot your password?</a>
-          <button>Sign In</button>
+          <a className="a" href="#">¿Olvidaste tu contraseña?</a>
+          <button>Iniciar Sesión</button>
         </form>
       </div>
       <div className="toggle-container">
         <div className="toggle">
           <div className="toggle-panel toggle-left">
-            <h1>Welcme Back</h1>
-            <p> Enter your personal details to use all of site features</p>
+            <h1>Bienvenido de nuevo</h1>
+            <p> Ingrese sus datos personales para utilizar todas las funciones del sitio</p>
             <button className="hidden" id="login">
-              Sign In
+              Iniciar Sesión
             </button>
           </div>
           <div className="toggle-panel toggle-right">
-            <h1>Hello, Friend</h1>
-            <p> Register your personal details to use all of site features</p>
+            <h1>Bienvenido</h1>
+            <p> Registre sus datos personales para utilizar todas las funciones del sitio</p>
             <button className="hidden" id="register">
-              Sign Up
+              Registrarse
             </button>
           </div>
         </div>
